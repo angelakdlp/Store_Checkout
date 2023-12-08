@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sc.css">
+    <script src="sc.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <h2>Cashier Checkout</h2>
+        <div class="Barcode">
+            <p class="Barcode-p">Scan Product Barcode:</p>
+            <input id="barcodeInput" class="Barcode-input" placeholder="Scan barcode here">
+        </div>
+        <div class="Quantity">
+            <p class="Quantity-p">Quantity:</p>
+            <input id="quantityInput" class="Quantity-input" type="number">
+        </div>
+        <button id="addToCart" class="Cart">Add to Cart</button>
+        <div class="Line"></div>
+        <h3>Cart</h3>
+        <div id="cart" class="CartItemsContainer">
+            <div class="CartRow">
+                <span class="Item Header">Item</span>
+                <span class="Price Header">Price</span>
+                <span class="Quantitys Header">Quantity</span>
+            </div>
+        </div>
+        <div class="Total" id="totalDisplay">Total: $0.00</div>
+        <button class="Cart Checkout" id="checkoutButton">Checkout</button>
+        <div id="grandTotalDisplay" class="GrandTotal"></div>
+    </div>

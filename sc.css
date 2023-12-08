@@ -1,0 +1,114 @@
+
+.main {
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+.Barcode,
+.Quantity {
+    margin: 0px 0px 15px 30px;
+}
+.Barcode-p,
+.Quantity-p {
+    display: inline-block;
+    margin: 0; 
+}
+.Barcode-input {
+    width: 115px;
+}
+.Quantity-input {
+    width: 110px;
+}
+
+.Cart {
+    background-color: rgb(43, 184, 43);
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px 15px 30px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+.Line{
+    background-color: rgb(237, 237, 237);
+    height: 1px;
+    width: 550px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+.CartRow {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.CartItemsContainer {
+    text-decoration: under;
+}
+
+.CartItemContainer {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}  
+
+.Header {
+    flex: 0;
+    text-align: center; 
+    font-size: 18px;
+}
+.Item, .Price, .Quantitys {
+    flex: 0; 
+    text-align: center; 
+    font-size: 16px; 
+}
+.Column{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    flex: 1;
+}
+.Column span{
+    text-align: center;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.CartItemsContainer span{
+    flex: 1;
+    text-align: center;
+}
+
+.Total {
+    font-size: 16px;
+    margin: 0px 0px 15px 30px;
+    text-align: left;
+}
+
+.Cart.Checkout {
+    background-color: rgb(43, 184, 43);
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px 15px 30px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.GrandTotal {
+    font-size: 16px;
+    margin: 0px 0px 15px 30px;
+    text-align: left;
+}
